@@ -38,3 +38,4 @@ BaselineOfHuggingFace >> baseline: spec [
 					spec requires:
 						#( 'LLM-HuggingFace-Hub' 'LLM-HuggingFace-Inference' ) ].
 ]
+]
