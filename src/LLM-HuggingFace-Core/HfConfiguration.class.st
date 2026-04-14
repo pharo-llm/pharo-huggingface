@@ -32,7 +32,7 @@ Class {
 		'maxRetries',
 		'etagTimeout'
 	],
-	#classInstVars : [
+	#classVars : [
 		'DefaultUserAgent'
 	],
 	#category : 'LLM-HuggingFace-Core-Client',
