@@ -27,15 +27,11 @@ BaselineOfHuggingFace >> baseline: spec [
 
 	<baseline>
 	spec for: #common do: [
-		spec
-			package: 'LLM-HuggingFace-Core';
-			package: 'LMM-HuggingFace-Hub'
-				with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ];
-			package: 'LLM-HuggingFace-Inference'
-				with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ];
-			package: 'LLM-HuggingFace-Tests'
-				with: [
+
+			spec package: 'LLM-HuggingFace-Core'.
+			spec package: 'LLM-HuggingFace-Inference' with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ].
+			spec package: 'LMM-HuggingFace-Hub' with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ].
+			spec package: 'LLM-HuggingFace-Tests' with: [
 					spec requires:
-						#( 'LMM-HuggingFace-Hub' 'LLM-HuggingFace-Inference' ) ].
-]
+						#( 'LLM-HuggingFace-Core' 'LLM-HuggingFace-Inference' 'LMM-HuggingFace-Hub' ) ] ]
 ]
