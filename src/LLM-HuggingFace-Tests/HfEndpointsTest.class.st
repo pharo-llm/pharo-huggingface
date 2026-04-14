@@ -4,8 +4,8 @@ Pure-function tests for URL construction. Runs without network access.
 Class {
 	#name : 'HfEndpointsTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Core',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Core',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Core'
 }
 

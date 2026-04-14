@@ -19,8 +19,8 @@ Class {
 		'client',
 		'endpointUrl'
 	],
-	#category : 'HuggingFace-Inference-Client',
-	#package : 'HuggingFace-Inference',
+	#category : 'LLM-HuggingFace-Inference-Client',
+	#package : 'LLM-HuggingFace-Inference',
 	#tag : 'Client'
 }
 

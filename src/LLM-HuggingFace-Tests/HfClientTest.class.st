@@ -4,8 +4,8 @@ Tests for the top-level `HfClient` facade.
 Class {
 	#name : 'HfClientTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Core',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Core',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Core'
 }
 

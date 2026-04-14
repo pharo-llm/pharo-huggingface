@@ -5,8 +5,8 @@ integration-style when an `HF_TOKEN` is available, and skipped otherwise.
 Class {
 	#name : 'HfInferenceClientTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Inference',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Inference',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Inference'
 }
 

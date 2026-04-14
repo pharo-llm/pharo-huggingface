@@ -5,7 +5,7 @@ submit an access request before the resource can be downloaded.
 Class {
 	#name : 'HfGatedRepoError',
 	#superclass : 'HfHttpError',
-	#category : 'HuggingFace-Core-Errors',
-	#package : 'HuggingFace-Core',
+	#category : 'LLM-HuggingFace-Core-Errors',
+	#package : 'LLM-HuggingFace-Core',
 	#tag : 'Errors'
 }

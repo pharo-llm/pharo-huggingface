@@ -1,1 +1,1 @@
-Package { #name : 'HuggingFace-Tests' }
+Package { #name : 'LLM-HuggingFace-Tests' }

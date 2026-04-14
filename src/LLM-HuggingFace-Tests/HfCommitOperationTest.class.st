@@ -5,8 +5,8 @@ payload regressions that would only otherwise surface against a live API.
 Class {
 	#name : 'HfCommitOperationTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Hub',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Hub',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Hub'
 }
 

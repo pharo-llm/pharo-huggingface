@@ -14,8 +14,8 @@ Class {
 		'content',
 		'name'
 	],
-	#category : 'HuggingFace-Inference-Chat',
-	#package : 'HuggingFace-Inference',
+	#category : 'LLM-HuggingFace-Inference-Chat',
+	#package : 'LLM-HuggingFace-Inference',
 	#tag : 'Chat'
 }
 

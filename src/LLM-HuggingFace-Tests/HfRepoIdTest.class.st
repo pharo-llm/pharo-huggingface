@@ -4,8 +4,8 @@ Validation tests for the tiny `HfRepoId` value object.
 Class {
 	#name : 'HfRepoIdTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Hub',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Hub',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Hub'
 }
 

@@ -21,8 +21,8 @@ Class {
 		'DefaultBaseUrl',
 		'InferenceBaseUrl'
 	],
-	#category : 'HuggingFace-Core-Http',
-	#package : 'HuggingFace-Core',
+	#category : 'LLM-HuggingFace-Core-Http',
+	#package : 'LLM-HuggingFace-Core',
 	#tag : 'Http'
 }
 

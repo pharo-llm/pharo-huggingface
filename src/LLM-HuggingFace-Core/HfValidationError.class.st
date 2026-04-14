@@ -6,7 +6,7 @@ the network.
 Class {
 	#name : 'HfValidationError',
 	#superclass : 'HfError',
-	#category : 'HuggingFace-Core-Errors',
-	#package : 'HuggingFace-Core',
+	#category : 'LLM-HuggingFace-Core-Errors',
+	#package : 'LLM-HuggingFace-Core',
 	#tag : 'Errors'
 }

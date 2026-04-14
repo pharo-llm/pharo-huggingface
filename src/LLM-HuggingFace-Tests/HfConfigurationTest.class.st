@@ -4,8 +4,8 @@ Smoke tests for configuration defaults and fluent setters.
 Class {
 	#name : 'HfConfigurationTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Core',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Core',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Core'
 }
 

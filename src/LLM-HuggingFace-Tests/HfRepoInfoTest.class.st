@@ -5,8 +5,8 @@ fixtures from the public Hub API.
 Class {
 	#name : 'HfRepoInfoTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Hub',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Hub',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Hub'
 }
 

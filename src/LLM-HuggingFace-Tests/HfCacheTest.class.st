@@ -8,8 +8,8 @@ Class {
 		'cache',
 		'tempRoot'
 	],
-	#category : 'HuggingFace-Tests-Hub',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Hub',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Hub'
 }
 

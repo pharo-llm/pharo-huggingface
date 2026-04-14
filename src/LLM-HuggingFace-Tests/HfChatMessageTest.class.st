@@ -4,8 +4,8 @@ Tests for the chat message value object and its JSON shape.
 Class {
 	#name : 'HfChatMessageTest',
 	#superclass : 'TestCase',
-	#category : 'HuggingFace-Tests-Inference',
-	#package : 'HuggingFace-Tests',
+	#category : 'LLM-HuggingFace-Tests-Inference',
+	#package : 'LLM-HuggingFace-Tests',
 	#tag : 'Inference'
 }
 

@@ -6,7 +6,7 @@ exponential backoff.
 Class {
 	#name : 'HfRateLimitError',
 	#superclass : 'HfHttpError',
-	#category : 'HuggingFace-Core-Errors',
-	#package : 'HuggingFace-Core',
+	#category : 'LLM-HuggingFace-Core-Errors',
+	#package : 'LLM-HuggingFace-Core',
 	#tag : 'Errors'
 }

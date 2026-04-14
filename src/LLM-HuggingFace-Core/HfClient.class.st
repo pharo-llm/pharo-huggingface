@@ -28,8 +28,8 @@ Class {
 	#classVariables : [
 		'Default'
 	],
-	#category : 'HuggingFace-Core-Client',
-	#package : 'HuggingFace-Core',
+	#category : 'LLM-HuggingFace-Core-Client',
+	#package : 'LLM-HuggingFace-Core',
 	#tag : 'Client'
 }
 

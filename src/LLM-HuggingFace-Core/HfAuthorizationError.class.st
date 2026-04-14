@@ -5,7 +5,7 @@ for the requested action (e.g. writing to a repo they don't own).
 Class {
 	#name : 'HfAuthorizationError',
 	#superclass : 'HfHttpError',
-	#category : 'HuggingFace-Core-Errors',
-	#package : 'HuggingFace-Core',
+	#category : 'LLM-HuggingFace-Core-Errors',
+	#package : 'LLM-HuggingFace-Core',
 	#tag : 'Errors'
 }

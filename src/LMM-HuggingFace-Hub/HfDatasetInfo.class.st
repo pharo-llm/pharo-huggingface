@@ -8,8 +8,8 @@ Class {
 		'citation',
 		'description'
 	],
-	#category : 'HuggingFace-Hub-Model',
-	#package : 'HuggingFace-Hub',
+	#category : 'LMM-HuggingFace-Hub-Model',
+	#package : 'LMM-HuggingFace-Hub',
 	#tag : 'Model'
 }
 

@@ -7,8 +7,8 @@ Class {
 	#instVars : [
 		'isFolder'
 	],
-	#category : 'HuggingFace-Hub-Commits',
-	#package : 'HuggingFace-Hub',
+	#category : 'LMM-HuggingFace-Hub-Commits',
+	#package : 'LMM-HuggingFace-Hub',
 	#tag : 'Commits'
 }
 
