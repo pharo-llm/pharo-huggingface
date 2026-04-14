@@ -36,6 +36,6 @@ BaselineOfHuggingFace >> baseline: spec [
 			package: 'LLM-HuggingFace-Tests'
 				with: [
 					spec requires:
-						#( 'LLM-HuggingFace-Hub' 'LLM-HuggingFace-Inference' ) ].
+						#( 'LMM-HuggingFace-Hub' 'LLM-HuggingFace-Inference' ) ].
 ]
 ]
