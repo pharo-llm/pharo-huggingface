@@ -40,16 +40,16 @@ Class {
 	#tag : 'Client'
 }
 
-{ #category : 'class initialization' }
-HfConfiguration class >> initialize [
-
-	DefaultUserAgent := 'pharo-huggingface/0.1 (+https://github.com/pharo-llm/pharo-huggingface)'
-]
-
 { #category : 'instance creation' }
 HfConfiguration class >> default [
 
 	^ self new
+]
+
+{ #category : 'class initialization' }
+HfConfiguration class >> initialize [
+
+	DefaultUserAgent := 'pharo-huggingface/0.1 (+https://github.com/pharo-llm/pharo-huggingface)'
 ]
 
 { #category : 'accessing' }

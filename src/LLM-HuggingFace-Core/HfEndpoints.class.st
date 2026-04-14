@@ -27,6 +27,20 @@ Class {
 }
 
 { #category : 'class initialization' }
+HfEndpoints class >> defaultBaseUrl [
+
+	^ DefaultBaseUrl ifNil: [
+		DefaultBaseUrl := 'https://huggingface.co' ]
+]
+
+{ #category : 'class initialization' }
+HfEndpoints class >> inferenceBaseUrl [
+
+	^ InferenceBaseUrl ifNil: [
+		InferenceBaseUrl := 'https://api-inference.huggingface.co' ]
+]
+
+{ #category : 'class initialization' }
 HfEndpoints class >> initialize [
 
 	DefaultBaseUrl := 'https://huggingface.co'.
@@ -103,23 +117,23 @@ HfEndpoints >> encodeRevision: aRevision [
 		  (aRevision ifNil: [ 'main' ] ifNotNil: [ aRevision ])
 ]
 
-{ #category : 'initialization' }
-HfEndpoints >> initialize [
-
-	super initialize.
-	baseUrl := DefaultBaseUrl
-]
-
 { #category : 'urls - inference' }
 HfEndpoints >> inferenceModelUrl: aModelId [
 
-	^ InferenceBaseUrl , '/models/' , aModelId
+	^ self class inferenceBaseUrl , '/models/' , aModelId
 ]
 
 { #category : 'urls - root' }
 HfEndpoints >> inferenceRouterUrl [
 
 	^ 'https://router.huggingface.co/v1'
+]
+
+{ #category : 'initialization' }
+HfEndpoints >> initialize [
+
+	super initialize.
+	baseUrl := self class defaultBaseUrl 
 ]
 
 { #category : 'urls - repos' }

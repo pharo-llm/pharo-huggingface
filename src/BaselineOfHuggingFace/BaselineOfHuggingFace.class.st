@@ -28,7 +28,10 @@ BaselineOfHuggingFace >> baseline: spec [
 	<baseline>
 	spec for: #common do: [
 
-			spec package: 'LLM-HuggingFace-Core'.
+		spec baseline: 'NeoJSON' with: [
+				spec repository: 'github://svenvc/NeoJSON/repository' ].
+			
+			spec package: 'LLM-HuggingFace-Core' with: [ spec requires: #( 'NeoJSON' ) ].
 			spec package: 'LLM-HuggingFace-Inference' with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ].
 			spec package: 'LLM-HuggingFace-Hub' with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ].
 			spec package: 'LLM-HuggingFace-Tests' with: [
