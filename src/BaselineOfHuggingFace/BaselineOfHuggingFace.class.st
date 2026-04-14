@@ -28,21 +28,21 @@ BaselineOfHuggingFace >> baseline: spec [
 	<baseline>
 	spec for: #common do: [
 		spec
-			package: 'HuggingFace-Core';
-			package: 'HuggingFace-Hub'
-				with: [ spec requires: #( 'HuggingFace-Core' ) ];
-			package: 'HuggingFace-Inference'
-				with: [ spec requires: #( 'HuggingFace-Core' ) ];
-			package: 'HuggingFace-Tests'
+			package: 'LLM-HuggingFace-Core';
+			package: 'LLM-HuggingFace-Hub'
+				with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ];
+			package: 'LLM-HuggingFace-Inference'
+				with: [ spec requires: #( 'LLM-HuggingFace-Core' ) ];
+			package: 'LLM-HuggingFace-Tests'
 				with: [
 					spec requires:
-						#( 'HuggingFace-Hub' 'HuggingFace-Inference' ) ].
+						#( 'LLM-HuggingFace-Hub' 'LLM-HuggingFace-Inference' ) ].
 
 		spec
-			group: 'Core' with: #( 'HuggingFace-Core' );
-			group: 'Hub' with: #( 'HuggingFace-Hub' );
-			group: 'Inference' with: #( 'HuggingFace-Inference' );
-			group: 'Tests' with: #( 'HuggingFace-Tests' );
+			group: 'Core' with: #( 'LLM-HuggingFace-Core' );
+			group: 'Hub' with: #( 'LLM-HuggingFace-Hub' );
+			group: 'Inference' with: #( 'LLM-HuggingFace-Inference' );
+			group: 'Tests' with: #( 'LLM-HuggingFace-Tests' );
 			group: 'default' with: #( 'Core' 'Hub' 'Inference' );
 			group: 'all' with: #( 'default' 'Tests' ) ]
 ]
