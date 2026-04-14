@@ -17,7 +17,7 @@ Class {
 	#instVars : [
 		'baseUrl'
 	],
-	#classVariables : [
+	#classInstVars : [
 		'DefaultBaseUrl',
 		'InferenceBaseUrl'
 	],

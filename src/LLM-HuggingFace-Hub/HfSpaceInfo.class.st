@@ -9,8 +9,8 @@ Class {
 		'stage',
 		'hardware'
 	],
-	#category : 'LMM-HuggingFace-Hub-Model',
-	#package : 'LMM-HuggingFace-Hub',
+	#category : 'LLM-HuggingFace-Hub-Model',
+	#package : 'LLM-HuggingFace-Hub',
 	#tag : 'Model'
 }
 

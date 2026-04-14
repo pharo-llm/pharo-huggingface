@@ -24,8 +24,8 @@ Class {
 	#instVars : [
 		'root'
 	],
-	#category : 'LMM-HuggingFace-Hub-Cache',
-	#package : 'LMM-HuggingFace-Hub',
+	#category : 'LLM-HuggingFace-Hub-Cache',
+	#package : 'LLM-HuggingFace-Hub',
 	#tag : 'Cache'
 }
 

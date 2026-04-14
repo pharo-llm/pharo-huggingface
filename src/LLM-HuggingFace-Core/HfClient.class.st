@@ -25,7 +25,7 @@ Class {
 		'hub',
 		'inference'
 	],
-	#classVariables : [
+	#classInstVars : [
 		'Default'
 	],
 	#category : 'LLM-HuggingFace-Core-Client',

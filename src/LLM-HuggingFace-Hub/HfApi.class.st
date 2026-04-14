@@ -23,8 +23,8 @@ Class {
 	#instVars : [
 		'client'
 	],
-	#category : 'LMM-HuggingFace-Hub-Api',
-	#package : 'LMM-HuggingFace-Hub',
+	#category : 'LLM-HuggingFace-Hub-Api',
+	#package : 'LLM-HuggingFace-Hub',
 	#tag : 'Api'
 }
 
